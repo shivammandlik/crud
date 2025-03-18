@@ -7,6 +7,7 @@ import './index.css'
 import Local from './Local.jsx'
 import Sample1 from './Project2/Sample1.jsx'
 import Parent from './Project2/Parent.jsx'
+import Show from './Show.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Form /> */}
     {/* <Demo/> */}
     {/* <Local/> */}
+    <Show/>
 
     {/* <Sample1 name="Aarush" age="8" /> */}
     {/* above example is about props drilling */}
